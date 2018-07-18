@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 35%;
+}
+
+body {
+  font-family: "Var", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.7;
+}
+
+@font-face {
+  font-family: 'Var';
+  src: url("./fonts/Vag.otf");
+}
+
+@font-face {
+  font-family: "fontopoFONTOPO Regular";
+  src: url("./fonts/fontopoFONTOPO-Regular.woff") format("woff"),
+    url("./fonts/fontopoFONTOPO-Regular.ttf") format("truetype"),
+    url("./fonts/fontopoFONTOPO-Regular.svg#fontopoFONTOPO-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+  margin: 5px;
+  font-family: 'fontopoFONTOPO Regular', sans-serif;
+  font-size: 5.5rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+p {
+  font-size: 3.5rem;
+  color: '#4B3A4F';
+}
+
+span {
+  font-size: 2rem;
+}

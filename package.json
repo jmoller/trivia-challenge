@@ -1,0 +1,40 @@
+{
+  "name": "trivia-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jest": "^23.4.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-loader-spinner": "^2.1.0",
+    "react-placeholder": "^3.0.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga": "^0.16.0",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "flow-bin": "^0.76.0",
+    "html-entities": "^1.2.1",
+    "jest-cli": "^20.0.4",
+    "react-scripts": "1.1.4",
+    "react-styleguidist": "^7.0.20",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga-test-plan": "^3.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "flow": "flow"
+  }
+}
